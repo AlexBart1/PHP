@@ -125,48 +125,7 @@ $a = 8;
             dump ($a & $b);
 
             
-        $AlexBarta1 = 1;
-        $AlexBarta2 = 1;
-        if($AlexBarta1 <=  $AlexBarta2){
-               echo "Alex Barta <br>";
-        }
-        if($AlexBarta1 > $AlexBarta2){
-               echo"Alex <br>";
-        }
-        else{
-            echo"Barta <br>";
-        }
-        if ($AlexBarta1 > $AlexBarta2){
-            echo"Alex <br>";
-            if($AlexBarta1 == $AlexBarta){
-                echo"Barta <br>";    
-           }
-        }
-        switch ($AlexBarta1) {
-           case 0:
-               break;
-           case 1:
-               echo"ok zoomer";
-           case 2:
-               break;
-           case 3:
-               break;
-           case 4:
-               break;
-           case 5:
-               break;
-           default:
-               break;
-        } 
         
-        $radekAlexBarta=12; 
-$sloupecAlexBarta=17; 
-            echo "<table border=1>";
-            for($i=1;$i<=$radekAlexBarta;$i++) {
-                echo "<tr>";
-for($x=1;$x<=$sloupecAlexBarta;$x++){
-    echo "<td>".$i."-".$x."</td>";
-}
  $produkty =  array(1 =>"op",2 =>"op1", 3 => "op2",4 =>"op3",5 =>"op4",6 =>"op5",7 =>"op6",8 =>"op7",9 =>"op8",10 =>"op9");                  
  
  $produkty1["op"] = array( );
