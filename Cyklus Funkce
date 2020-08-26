@@ -1,0 +1,45 @@
+
+<?php
+
+
+
+$AlexBarta1 = 1;
+        $AlexBarta2 = 1;
+        if($AlexBarta1 <=  $AlexBarta2){
+               echo "Alex Barta <br>";
+        }
+        if($AlexBarta1 > $AlexBarta2){
+               echo"Alex <br>";
+        }
+        else{
+            echo"Barta <br>";
+        }
+        if ($AlexBarta1 > $AlexBarta2){
+            echo"Alex <br>";
+            if($AlexBarta1 == $AlexBarta){
+                echo"Barta <br>";    
+           }
+        }
+        $radekAlexBarta=12; 
+$sloupecAlexBarta=17; 
+            echo "<table border=1>";
+            for($i=1;$i<=$radekAlexBarta;$i++) {
+                echo "<tr>";
+for($x=1;$x<=$sloupecAlexBarta;$x++){
+    echo "<td>".$i."-".$x."</td>";
+    }
+        switch ($AlexBarta1) {
+           case 0:
+               break;
+           case 1:
+               echo"ok zoomer";
+           case 2:
+               break;
+           case 3:
+               break;
+           case 4:
+               break;
+           case 5:
+               break;
+           default:
+               break;
