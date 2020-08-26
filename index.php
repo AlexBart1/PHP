@@ -28,7 +28,6 @@ $a = 8;
             echo"<br>";
             $b = 5;
 
-            
            dump ($a - $b);
 
             echo "<br>";
@@ -159,7 +158,8 @@ $a = 8;
            default:
                break;
         } 
-  $radekAlexBarta=12; 
+        
+        $radekAlexBarta=12; 
 $sloupecAlexBarta=17; 
             echo "<table border=1>";
             for($i=1;$i<=$radekAlexBarta;$i++) {
@@ -167,7 +167,6 @@ $sloupecAlexBarta=17;
 for($x=1;$x<=$sloupecAlexBarta;$x++){
     echo "<td>".$i."-".$x."</td>";
 }
-
  $produkty =  array(1 =>"op",2 =>"op1", 3 => "op2",4 =>"op3",5 =>"op4",6 =>"op5",7 =>"op6",8 =>"op7",9 =>"op8",10 =>"op9");                  
  
  $produkty1["op"] = array( );
@@ -189,6 +188,7 @@ dump($produkty);
  
  
          
+
                 echo "</tr>";
             }
             echo "</table><br><br><br>";
@@ -216,7 +216,7 @@ dump($produkty);
                 return $price;
                 
                 //Práce s řetězcem
-            $jmena = "Jan, jAnA, MaRiE, HonZA";
+            $jmena = "Jan, KaJa, ReNne, OnDrA";
             var_dump($jmena);
             $jmena = str_replace("", ",", $jmena);
             var_dump($jmena);
@@ -239,3 +239,4 @@ dump($produkty);
 }
       
   ?>
+  
