@@ -158,7 +158,16 @@ $a = 8;
                break;
            default:
                break;
-        }                              
+        } 
+  $radekAlexBarta=12; 
+$sloupecAlexBarta=17; 
+            echo "<table border=1>";
+            for($i=1;$i<=$radekAlexBarta;$i++) {
+                echo "<tr>";
+for($x=1;$x<=$sloupecAlexBarta;$x++){
+    echo "<td>".$i."-".$x."</td>";
+}
+
  $produkty =  array(1 =>"op",2 =>"op1", 3 => "op2",4 =>"op3",5 =>"op4",6 =>"op5",7 =>"op6",8 =>"op7",9 =>"op8",10 =>"op9");                  
  
  $produkty1["op"] = array( );
@@ -179,14 +188,7 @@ dump($produkty);
  dump($produkty1); 
  
  
-         $radekAlexBarta=12; 
-$sloupecAlexBarta=17; 
-            echo "<table border=1>";
-            for($i=1;$i<=$radekAlexBarta;$i++) {
-                echo "<tr>";
-for($x=1;$x<=$sloupecAlexBarta;$x++){
-    echo "<td>".$i."-".$x."</td>";
-}
+         
                 echo "</tr>";
             }
             echo "</table><br><br><br>";
